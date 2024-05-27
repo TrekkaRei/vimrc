@@ -1,2 +1,3 @@
 # vim
 vim rice
+vimrc ---> ~/
