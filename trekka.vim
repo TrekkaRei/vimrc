@@ -31,7 +31,7 @@ let colors_name = "trekka"
 :hi Comment term=bold guifg=#545454 
 :hi Constant guifg=#9e8fcd ctermfg=brown
 :hi Special guifg=#e4e4c2 ctermfg=brown
-:hi Identifier guifg=#ff3369
+:hi Identifier guifg=#cccccc
 :hi Include guifg=#ff3369
 :hi PreProc guifg=#e4e4c2  
 :hi Operator guifg=#ff3369
