@@ -3,6 +3,7 @@ set number
 set relativenumber
 set laststatus=2
 set wrap
+set clipboard+=unnamedplus
 
 " keybinds
 nnoremap <C-K> :source ~/.vimrc <CR> 
