@@ -8,22 +8,24 @@ set wrap
 nnoremap <C-K> :source ~/.vimrc <CR> 
 nnoremap <C-F> <C-/>
 nnoremap <C-E> yyp
-nnoremap <C-X> u
-nnoremap <C-A> dd
-nnoremap <C-D> p
-nnoremap < i
+nnoremap <C-X> :Lex <CR> 
+nnoremap <C-d> :browse oldfiles <CR>
+nnoremap <C-s> :nohlsearch <CR>
 nnoremap > :
+
+" movement
+nnoremap <C-h> <C-w><C-h>
+nnoremap <C-l> <C-w><C-l>
+nnoremap <C-k> <C-w><C-k>
+nnoremap <C-j> <C-w><C-j>
 
 nnoremap m @
 
-inoremap <C-K> :so /home/trekka/.vimrc <CR> 
 inoremap <C-R> []
 inoremap <C-T> ()
 inoremap <C-G> <>
 inoremap >> <Esc>
-
 vnoremap > :
-vnoremap < i
 
 inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
 nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
