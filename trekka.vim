@@ -5,6 +5,20 @@ if version > 580
  syntax reset
  endif
 endif
+
+" HTML color
+
+" White #e8e7e7
+" Off White #e4e4c2
+" Red #ff3369
+" Pink #fe00f9
+" Green #00ffa4
+" Cuan #00feed
+" Purple "#9e8fcd
+
+" Grey #545454
+" Black #151515
+
 let colors_name = "trekka"
 :hi Normal guifg=#e8e7e7 ctermbg=233
 :hi Cursor guibg=#ff3369 guifg=#202020
