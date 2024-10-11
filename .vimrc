@@ -6,13 +6,12 @@ set wrap
 set clipboard+=unnamedplus
 
 " keybinds
-nnoremap <C-K> :source ~/.vimrc <CR> 
+nnoremap <C-a> :source ~/.vimrc <CR> 
 nnoremap <C-F> <C-/>
-nnoremap <C-E> yyp
 nnoremap <C-X> :Lex <CR> 
-nnoremap <C-d> :browse oldfiles <CR>
+nnoremap <C-e> :browse oldfiles <CR>
 nnoremap <C-s> :nohlsearch <CR>
-nnoremap > :
+nnoremap > *Ncgn
 
 " movement
 nnoremap <C-h> <C-w><C-h>
