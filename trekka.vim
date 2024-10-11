@@ -39,7 +39,7 @@ let colors_name ="trekka"
 :hi Question guifg=#6ef3a3
 :hi Search guibg=#303030 guifg=#6ef3a3 cterm=none 
 :hi SpecialKey guifg=#e4e4c2
-:hi StatusLine guibg=#c2bfa5 guifg=#151515 gui=none cterm=bold,reverse
+:hi StatusLine guibg=#c2bfa5 guifg=#252525 gui=none cterm=bold,reverse
 :hi StatusLineNC guibg=#c2bfa5 guifg=#151515 gui=none 
 :hi Title guifg=#e4e4c2 gui=bold cterm=bold 
 :hi Statement guifg=#6ef3a3 
