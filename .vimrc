@@ -5,8 +5,6 @@ set relativenumber
 set laststatus=2
 set wrap
 set clipboard+=unnamedplus
-set splitright
-set splitbelow
 let g:netrw_banner = 0
 
 " keybinds
