@@ -7,9 +7,7 @@ set wrap
 set clipboard+=unnamedplus
 
 " keybinds
-
-nnoremap <C-k9> <C-^>
-nnoremap 1 <End>
+nnoremap ¤ <End>
 vnoremap 1 <End>
 nnoremap <C-a> :source ~/.vimrc <CR> 
 nnoremap <C-F> <C-/>
