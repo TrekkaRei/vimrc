@@ -2,16 +2,7 @@
 
 " HTML color
 
-" White #e8e7e7
-" Off White #e4e4c2
-" Red #ff3067
-" Pink #fe00f9
-" Green #6ef3a3
-" Cyan #94e8ff
-" Purple #b684af
-" background #121619
-" Grey #545454
-" Black #161616
+" /home/trekka/Documents/bash/colors
 
 if version > 580
  hi clear
@@ -21,10 +12,10 @@ if version > 580
 endif
 let colors_name ="trekka"
 :hi Normal guifg=#bbbbbb guibg=#121619
-:hi Cursor guibg=#ff3067 guifg=#121619
+:hi Cursor guibg=#cccccc guifg=#202020
 :hi CursorLine guibg=#182322 cterm=none ctermfg=none
 :hi CursorLineNR guibg=#182322 cterm=none guifg=#eeeeaa
-:hi MatchParen guibg=#6ef3a3 guifg=#202020
+:hi MatchParen guibg=#6ef3a3 guifg=#202020 cterm=reverse
 :hi Pmenu guibg=#252525 guifg=#cccccc
 :hi PmenuSel guibg=#151515 guifg=#6ef3a3
 :hi PmenuSbar guibg=#151515 guifg=#ff3067
