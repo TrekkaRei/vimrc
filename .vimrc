@@ -1,3 +1,4 @@
+
 " other
 set number
 set relativenumber
@@ -6,9 +7,13 @@ set wrap
 set clipboard+=unnamedplus
 
 " keybinds
+
+nnoremap <C-k9> <C-^>
+nnoremap 1 <End>
+vnoremap 1 <End>
 nnoremap <C-a> :source ~/.vimrc <CR> 
 nnoremap <C-F> <C-/>
-nnoremap <C-X> :Lex <CR> 
+nnoremap <C-X> :Lex <CR>
 nnoremap <C-e> :browse oldfiles <CR>
 nnoremap <C-s> :nohlsearch <CR>
 nnoremap > *Ncgn
@@ -24,8 +29,10 @@ nnoremap m @
 inoremap <C-R> []
 inoremap <C-T> ()
 inoremap <C-G> <>
-inoremap >> <Esc>
 vnoremap > :
+
+
+
 
 inoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
 nnoremap <c-b> <Esc>:Lex<cr>:vertical resize 30<cr>
