@@ -48,7 +48,7 @@ let colors_name ="trekka"
 :hi Type guifg=#94e8ff ctermfg=2
 :hi Function guifg=navajowhite ctermfg=brown
 :hi Structure guifg=#6ef3a3
-:hi LineNr guifg=#ff3067 guibg=#151515
+:hi LineNr guifg=#ff3067 ctermbg=none
 :hi Ignore guifg=grey40 cterm=bold ctermfg=7
 :hi Todo guifg=#ff3067 guibg=#222222
 :hi Directory guifg=#6ef3a3
