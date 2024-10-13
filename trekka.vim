@@ -11,7 +11,7 @@ if version > 580
  endif
 endif
 let colors_name ="trekka"
-:hi Normal guifg=#bbbbbb guibg=#121619
+:hi Normal guifg=#bbbbbb ctermbg=none
 :hi Cursor guibg=#cccccc guifg=#202020
 :hi CursorLine guibg=#182322 cterm=none ctermfg=none
 :hi CursorLineNR guibg=#182322 cterm=none guifg=#eeeeaa
@@ -26,7 +26,7 @@ let colors_name ="trekka"
 :hi IncSearch guifg=#6ef3a3 guibg=#202020 cterm=none 
 :hi ModeMsg guifg=#6ef3a3 cterm=none guifg=#6ef3a3
 :hi MoreMsg guifg=SeaGreen ctermfg=darkgreen
-:hi NonText guifg=#e4e4c2 guibg=#121619  cterm=bold 
+:hi NonText guifg=#e4e4c2 ctermbg=none  cterm=bold 
 :hi Question guifg=#6ef3a3
 :hi Search guibg=#303030 guifg=#6ef3a3 cterm=none 
 :hi SpecialKey guifg=#e4e4c2
