@@ -6,9 +6,10 @@ set laststatus=2
 set wrap
 set clipboard+=unnamedplus
 let g:netrw_banner = 0
+set shortmess+=I
 
 " keybinds
-:command Links :e /home/trekka/links
+:command Links :e /home/trekka/links <CR>
 nnoremap § :e! #<CR>
 nnoremap ¤ <End>
 vnoremap ¤ <End>
@@ -19,6 +20,7 @@ nnoremap <C-e> :browse oldfiles <CR>
 nnoremap <C-s> :nohlsearch <CR>
 :ino <C-C> <Esc>
 nnoremap > *Ncgn
+nnoremap " m
 nnoremap m @
 inoremap <C-R> []
 inoremap <C-T> ()
